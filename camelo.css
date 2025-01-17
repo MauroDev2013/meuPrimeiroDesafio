@@ -14,12 +14,24 @@
 
 @media (max-width: 800px){
     .imagemMascote{
-        content: url("../desafio/media/imagens/danDroidPq.png");
+        content: url("media/imagens/danDroidPq.png");
+    }
+}
+
+.Irina{
+    width: 100%;
+    height: 700px;
+}
+
+@media (max-width: 800px){
+    .irina{
+        content: ("media/imagens/criadoraPquena.jpg");
     }
 }
 
 body{
     background-color: #7DD6A4;
+    margin-top: 0px;
 }
 /*tons de degrade cabeçalho
  verde clarinho: codigo #39CE7C
@@ -30,6 +42,8 @@ body{
     width: 100%;
     height: 175px;
     background: linear-gradient(to bottom, #39CE7C, #1A5C38);
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .links{
@@ -70,4 +84,19 @@ div{
 span{
     color: #195735;
     font-weight: bold;
+}
+
+.centralizado{
+    display: block;
+    margin: auto;
+}
+
+.listas{
+    background-color: #BBDFCB;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.barra{
+    background-color: #2D9F61;
 }
